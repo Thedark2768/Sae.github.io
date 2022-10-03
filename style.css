@@ -22,7 +22,7 @@ body{
 }
 
 .nombre{
-  font-size: 60px;
+  font-size: 100px;
   font-weight: 900;
   line-height: 1;
   color: white;
@@ -30,7 +30,7 @@ body{
 }
 
 .description{
-  font-size: 35px;
+  font-size: 55px;
   font-weight: 900;
   line-height: 1;
   color: white;
@@ -146,5 +146,11 @@ body{
 .Bot{
    width: 200px;
    height: 200px;
+}
+.nombre{
+  font-size: 60px;
+}
+.description{
+  font-size: 35px;
 }
 }
