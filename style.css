@@ -11,8 +11,8 @@ body{
 }
 
 .Bot{
-   width: 200px;
-   height: 200px;
+   width: 500px;
+   height: 500px;
    background-image: url(Sae.png);
    background-size: cover;
    border-radius: 50%;
@@ -143,4 +143,8 @@ body{
 	#menu input:checked + label {color:white}
 	#menu input:checked + label:before {content:"\00d7"}
 	#menu input:checked ~ ul {display:block}
+.Bot{
+   width: 200px;
+   height: 200px;
+}
 }
