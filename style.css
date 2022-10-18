@@ -154,3 +154,30 @@ body{
   font-size: 35px;
 }
 }
+
+/* PRELOADER */ 
+.preloader {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: #fefefe;
+   z-index: 100000;
+   height: 100%;
+   width: 100%;
+   overflow: hidden !important;
+}
+.preloader .status {
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   background-image: url(poner la url de la imagen);
+   background-repeat: no-repeat;
+   background-position: center;
+   -webkit-background-size: cover;
+   background-size: cover;
+   margin: -50px 0 0 -50px;
+}
